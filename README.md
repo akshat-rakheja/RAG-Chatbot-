@@ -1,7 +1,6 @@
 # RAG-Chatbot-
-```python?code_reference&code_event_index=3
-# Define the README content
-readme_content = """# RAG-Based Financial Analysis Chatbot (Microsoft 2025 Annual Report)
+```
+# RAG-Based Financial Analysis Chatbot (Microsoft 2025 Annual Report)
 
 A production-grade **Retrieval-Augmented Generation (RAG)** pipeline built to perform deep-dive financial analysis on complex corporate documents. This project focuses on **Context Engineering** to reduce token costs and eliminate hallucinations in financial reporting.
 
@@ -21,12 +20,12 @@ Interface:-IPython Widgets (Interactive Notebook UI for rapid testing)
 
 ## 📊 Evaluation Framework (The RAG Triad)
 To ensure the system meets "Product-Ready" standards for reliability, I implemented an **LLM-as-a-Judge** evaluation module. The system is measured on:
-* **Faithfulness:** Is the answer derived *only* from the context?
-* **Relevancy:** Does the answer actually address the user's query?
+Faithfulness:** Is the answer derived *only* from the context?
+Relevancy:** Does the answer actually address the user's query?
 
 ## 💡 Key Features
-* Financial Logic Mastery: Optimized to handle complex financial data from the **Microsoft 2025 Annual Report**, including revenue segments and tax anomalies.
-* Token Efficiency: Only relevant snippets are sent to the LLM, significantly reducing API overhead.
+Financial Logic Mastery: Optimized to handle complex financial data from the **Microsoft 2025 Annual Report**, including revenue segments and tax anomalies.
+Token Efficiency: Only relevant snippets are sent to the LLM, significantly reducing API overhead.
 
 
 ```
